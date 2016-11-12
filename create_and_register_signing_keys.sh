@@ -5,4 +5,4 @@ openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.d
 
 sudo mokutil --import MOK.der
 
-echo "Remember to reboot in order to register the MOK key"
+echo "Remember to reboot in order to enrol the MOK key"
